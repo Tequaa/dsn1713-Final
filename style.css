@@ -1,5 +1,8 @@
-
+html{
+    max-width: 1920px;
+}
 body {
+    max-width: 1920px;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,6 +15,7 @@ body {
 
 /* Header and logo */
 header {
+    max-width: 1920px;
     background: #f4f4f4;
     padding: 3rem 2rem;
     display: flex;
@@ -19,7 +23,7 @@ header {
     align-items: center;
     position: sticky; 
     top: 0;
-    z-index: 1000; 
+   
   
 }
 
@@ -30,7 +34,7 @@ header {
 
 
 .highlight {
-    font-size: 8rem; 
+    font-size: 4rem; 
     display: inline; 
     color: #731010; 
     
@@ -77,7 +81,7 @@ nav ul li a:hover {
 
 .logo-container {
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 header .logo {
@@ -86,6 +90,7 @@ header .logo {
 }
 
 .RedBar {
+    max-width: 1920px;
     height: 5px;
     display: flex;
     background-color: red;
@@ -93,6 +98,7 @@ header .logo {
 }
 
 .RedBarBottom {
+    max-width: 1920px;
     height: 5px;
     display: flex;
     background-color: red;
@@ -101,6 +107,7 @@ header .logo {
 }
 
 .logo {
+    max-width: 1920px;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -109,7 +116,7 @@ header .logo {
 
 /* Hero */
 .hero {
-    height: 1500px;
+    max-width: auto;
     text-align: start; 
     padding: 4rem 2rem;
     background: url('images/Surface\ Skis\ Home\ header.webp') no-repeat center center;
@@ -117,12 +124,11 @@ header .logo {
     color: white;
     display: flex; 
     flex-direction: column; 
- 
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 .heroAbout {
-    height: 1400px;
-    font-size: 8rem;
+    height: 650px;
+    font-size: 4rem;
     text-align: start; 
     padding: 4rem 2rem;
     background: url('images/Banner\ about.png') no-repeat center center;
@@ -136,8 +142,8 @@ header .logo {
 }
 
 .heroSki {
-    height: 1400px;
-    font-size: 8rem;
+    height: 650px; 
+    font-size: 4rem;
     text-align: start; 
     padding: 4rem 2rem;
     background: url('images/Banner\ Skis.png') no-repeat center center;
@@ -161,21 +167,21 @@ header .logo {
 .inline-years {
     white-space: nowrap;
     color: #dcd4d4; 
-    font-size: 8rem;
+    font-size: 4rem;
     text-align: center; 
    
 }
 
 
 .hero h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     margin-bottom: 0.2rem;
     
     
 }
 
 .hero p {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
     
 }
@@ -183,10 +189,10 @@ header .logo {
 .hero a {
     background: #731010; 
     color: white; 
-    padding: 2rem 14rem;
+    padding: 2rem 6rem;
     text-decoration: none;
     border-radius: 5px; 
-    font-size: 5rem;
+    font-size:4rem;
     text-align: center; 
     
     
@@ -200,20 +206,15 @@ header .logo {
 
 h2 {
     padding-left: 2rem;
-    margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 5rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: #333;
 }
 
-
-
-
-
 h3 {
     text-align: center; 
-    font-size: 4rem;
+    font-size: 2rem;
 
 }
 
@@ -260,12 +261,12 @@ h3 {
 }
 
 .product h3 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin: 0.5rem 0;
 }
 
 .product p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #555;
 }
 
@@ -273,7 +274,7 @@ h3 {
 
 /* Closeout */
 .Closeout {
-    height: 1400px;
+    height: 700px;
     text-align: center; 
     padding: 4rem 2rem;
     background: url('images/Banner\ closeout.png') no-repeat center center;
@@ -283,18 +284,18 @@ h3 {
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    margin-bottom: 400px;
+    margin-bottom: 250px;
 }
 
 .Closeout h1 {
-    font-size: 10rem; 
+    font-size: 5rem; 
     margin-bottom: 0;
     
 }
 
 .Closeout p {
     color: #731010;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: bolder;
     margin-bottom: 2rem;
     
@@ -303,10 +304,10 @@ h3 {
 .Closeout .btn {
     background: #731010; 
     color: white;
-    padding: 2rem 26rem;
+    padding: 2rem 13rem;
     text-decoration: none;
     border-radius: 5px; 
-    font-size: 6rem;
+    font-size: 4rem;
     text-align: center;
     display: inline-block;
 }
@@ -376,10 +377,12 @@ h3 {
 
 
 .Message{
+    max-width: 1300px;
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: start;
-    max-width: 4000px;
+    font-weight: 500;
+   
 }
 
 
@@ -395,7 +398,7 @@ h3 {
 footer {
     background-color: lightgray; 
     color: black; 
-    height: 250px; 
+    height: 200px; 
     padding: 2rem; 
     display: flex;
     flex-direction: column;
@@ -406,7 +409,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     
   }
 
